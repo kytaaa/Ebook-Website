@@ -5,7 +5,7 @@ use App\Http\Controllers\Admin\BookController;
 
 // Route untuk halaman utama
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 // Middleware untuk autentikasi dan admin
